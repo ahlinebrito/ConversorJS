@@ -1,15 +1,26 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-content: center;
+    flex-direction: column;
 }
 
 h1 {
     color: #333;
+    margin-top: 10px;
 }
 
 input {
     padding: 5px;
     font-size: 16px;
+}
+
+
+label{
+    margin-bottom: 20px;
 }
 
 button {
@@ -19,6 +30,8 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius:50rem;
+    margin-top: 10px;
 }
 
 #result {
